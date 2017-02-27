@@ -13,7 +13,7 @@ fs.readdir(path.resolve('./api/model/'), (err, files) => {
 })
 
 console.log('***** Force Creating Table *****')
-conn.sync({ force: true })
+conn.sync()
     .then(() => {
         console.log('***** Create Table Success *****')
     })
