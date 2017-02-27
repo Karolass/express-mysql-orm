@@ -1,22 +1,18 @@
 {
   "name": "express-mysql-orm",
   "version": "0.1.0",
-  "private": true,
   "scripts": {
     "start": "eslint * --fix & node ./bin/www",
     "sync": "node syncTable.js",
     "test": "mocha --timeout 20000"
   },
   "dependencies": {
-    "archiver": "^1.1.0",
-    "bcrypt": "^0.8.7",
     "body-parser": "~1.15.1",
     "cookie-parser": "^1.4.3",
     "cors": "^2.7.1",
     "debug": "~2.2.0",
     "ejs": "~2.4.1",
     "express": "~4.13.4",
-    "jwt-simple": "^0.5.0",
     "morgan": "~1.7.0",
     "mysql": "^2.13.0",
     "sequelize": "^3.30.2",

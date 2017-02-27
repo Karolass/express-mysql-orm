@@ -6,8 +6,8 @@ Nodejs >= 7.6.0 (Using async/await)
 
 ## Global Package
 
-nodemon
-eslint
+* nodemon
+* eslint
 
 ### command
 
