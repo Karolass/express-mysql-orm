@@ -23,7 +23,7 @@ const Model = {
     },
     updatedAt: {
         type: Sequelize.DATE,
-        defaultValue: Sequelize.literal('NOW() ON UPDATE NOW()')
+        defaultValue: Sequelize.literal('NOW()')
     },
     isValid: {
         type: Sequelize.BOOLEAN,
