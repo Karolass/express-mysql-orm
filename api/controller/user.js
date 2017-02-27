@@ -1,6 +1,5 @@
 const User = require('../model/user.js')
 const helper = require('../helper/helper.js')
-const env = require('../config/env.js')
 
 module.exports = {
     find: async (req, res) => {

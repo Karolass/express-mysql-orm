@@ -11,7 +11,9 @@ const conn = new Sequelize(db, orm.user, orm.pass, {
         max: 20,
         min: 0,
         idle: 20000
-    }
+    },
+
+    logging: false,
 })
 
 const Model = {
