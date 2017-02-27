@@ -1,0 +1,85 @@
+body {
+    font-family: Maven Pro,Helvetica,Arial,Microsoft JhengHei,sans-serif;
+    background-color: #deeb61;
+    height: 100vh;
+}
+
+#reset-pwd.mui-container-fluid {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#reset-pwd .mui-row {
+    flex: 1 1 100%;
+}
+
+#reset-pwd .block {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+@media (min-width: 768px) {
+    .block {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+#reset-pwd .logo {
+    margin-bottom: 3em;
+}
+
+#reset-pwd .logo > img {
+    width: 8em;
+}
+
+#reset-pwd .title {
+    font-weight: bold;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+#reset-pwd .warning {
+    font-size: 1.2em;
+    color: red;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+#reset-pwd .mui-textfield {
+    padding-top: 1.3em;
+    margin-bottom: 2em;
+}
+
+#reset-pwd .mui-textfield input {
+    font-size: 1.5em;
+    height: 50px;
+    border-width: 2px;
+}
+
+#reset-pwd .mui-textfield input:focus {
+    height: 50px;
+    margin-bottom: 0;
+    border-bottom: 1px solid rgba(0,0,0,.26);
+    border-width: 2px;
+}
+
+#reset-pwd .mui-textfield label {
+    color: rgba(0,0,0,.4);
+    font-size: 1.3em;
+    line-height: 1.3em;
+}
+
+#reset-pwd .mui-btn {
+    width: 100%;
+    height: 80px;
+    font-size: 1.5em;
+    color: #fff;
+    border-radius: 50px;
+    background-color: #39701f;
+}
+
+#reset-pwd .mui-ripple.mui--is-animating {
+    transition: none;
+}
